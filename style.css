@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  margin: 0 50px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle at 78% 11%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 92% 82%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 77% 66%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 4% 66%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 31% 8%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 48% 76%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 70% 42%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 20% 98%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 53% 62%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 39% 71%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 35% 91%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 29% 20%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 34% 23%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 50% 71%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 63% 75%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 20% 94%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),linear-gradient(135deg, rgb(198, 141, 234),rgb(152, 22, 98));
+}
+.app{
+  width: 500px;
+  height: 600px;
+  border: 4px solid black;
+  border-radius: 25px;
+  padding: 25px;
+  margin-top: 45px;
+  overflow-y: scroll;
+}
+.app::-webkit-scrollbar{
+width: 0 !important;
+}
+
+#addnew{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-image: repeating-radial-gradient(circle at center center, rgb(31, 31, 31) 0px, rgb(31, 31, 31) 33px,rgb(26, 26, 26) 33px, rgb(26, 26, 26) 79px,rgb(20, 20, 20) 79px, rgb(20, 20, 20) 88px); background-size: 56px 56px;background-image: radial-gradient(circle 8px at 92% 63%, rgb(255,250,85) 0%,transparent 22%),radial-gradient(circle 2px at 73% 80%, rgb(201,242,255) 0%,transparent 60%),radial-gradient(circle 2px at 88% 58%, rgb(201,242,255) 0%,transparent 5%),radial-gradient(circle 2px at 39% 24%, rgb(201,242,255) 0%,transparent 17%),radial-gradient(circle 2px at 31% 10%, rgb(201,242,255) 0%,transparent 83%),radial-gradient(circle 2px at 25% 64%, rgb(201,242,255) 0%,transparent 65%),radial-gradient(circle 2px at 46% 18%, rgb(201,242,255) 0%,transparent 86%),radial-gradient(circle 2px at 27% 89%, rgb(201,242,255) 0%,transparent 61%),radial-gradient(circle 2px at 72% 43%, rgb(201,242,255) 0%,transparent 46%),radial-gradient(circle 2px at 73% 2%, rgb(201,242,255) 0%,transparent 87%),radial-gradient(circle 5px at 94% 33%, rgb(253,250,147) 0%,transparent 93%),radial-gradient(circle 5px at 35% 87%, rgb(253,250,147) 0%,transparent 42%),radial-gradient(circle 4px at 78% 1%, rgb(255,249,27) 0%,transparent 76%),radial-gradient(circle 4px at 71% 51%, rgb(255,249,27) 0%,transparent 69%),radial-gradient(circle 4px at 26% 45%, rgb(255,249,27) 0%,transparent 83%),linear-gradient(90deg, rgb(35,35,35) 0%, rgb(35,35,35) 50%,rgb(35,35,35) 50%, rgb(35,35,35) 100%); background-size: 278px 278px;
+}
+.textstyle{
+  color:#ffd43b;
+  font-size: medium;
+}
+
+#msg{
+  margin: 15px 15px 15px 15px;
+  color: red;
+}
+
+#tasks{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#tasks div{
+  background-image: repeating-radial-gradient(circle at center center, rgb(31, 31, 31) 0px, rgb(31, 31, 31) 33px,rgb(26, 26, 26) 33px, rgb(26, 26, 26) 79px,rgb(20, 20, 20) 79px, rgb(20, 20, 20) 88px); background-size: 56px 56px;background-image: radial-gradient(circle 8px at 92% 63%, rgb(255,250,85) 0%,transparent 22%),radial-gradient(circle 2px at 73% 80%, rgb(201,242,255) 0%,transparent 60%),radial-gradient(circle 2px at 88% 58%, rgb(201,242,255) 0%,transparent 5%),radial-gradient(circle 2px at 39% 24%, rgb(201,242,255) 0%,transparent 17%),radial-gradient(circle 2px at 31% 10%, rgb(201,242,255) 0%,transparent 83%),radial-gradient(circle 2px at 25% 64%, rgb(201,242,255) 0%,transparent 65%),radial-gradient(circle 2px at 46% 18%, rgb(201,242,255) 0%,transparent 86%),radial-gradient(circle 2px at 27% 89%, rgb(201,242,255) 0%,transparent 61%),radial-gradient(circle 2px at 72% 43%, rgb(201,242,255) 0%,transparent 46%),radial-gradient(circle 2px at 73% 2%, rgb(201,242,255) 0%,transparent 87%),radial-gradient(circle 5px at 94% 33%, rgb(253,250,147) 0%,transparent 93%),radial-gradient(circle 5px at 35% 87%, rgb(253,250,147) 0%,transparent 42%),radial-gradient(circle 4px at 78% 1%, rgb(255,249,27) 0%,transparent 76%),radial-gradient(circle 4px at 71% 51%, rgb(255,249,27) 0%,transparent 69%),radial-gradient(circle 4px at 26% 45%, rgb(255,249,27) 0%,transparent 83%),linear-gradient(90deg, rgb(35,35,35) 0%, rgb(35,35,35) 50%,rgb(35,35,35) 50%, rgb(35,35,35) 100%); background-size: 278px 278px;
+  border-radius: 25px;
+  padding: 10px;
+  display: grid;
+  gap: 5px;
+  color: #FFD43B;
+  font-size: normal;
+ font-weight: lighter;
+}
+
+#tasks div .options{
+  display: flex;
+  justify-self: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+#tasks div .options i{
+  cursor: pointer;
+}
+
+h1{
+  color: antiquewhite !important;
+}
+h3{
+  color: antiquewhite !important;
+}
