@@ -1,6 +1,6 @@
 # ✅ TODO List App
 
-A modern and responsive TODO List web application where users can **add**, **edit**, and **delete** tasks. Built using **HTML**, **CSS**, **JavaScript**, and styled with **Bootstrap 5**, this app supports **local storage**, so your tasks persist even after a page refresh.
+A modern and responsive TODO List web application where users can **add**, **edit**, and **delete** tasks. Built using **HTML**, **CSS**, **JavaScript**, this app supports **local storage**, so your tasks persist even after a page refresh.
 
 ---
 
